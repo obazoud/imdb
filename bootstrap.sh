@@ -13,7 +13,7 @@ aptitude_install() {
 }
 
 # common
-aptitude_install "git" "tig" "vim" "tree" "curl" "wget" "zip" "tar" "zsh" "iotop"
+aptitude_install "git" "tig" "vim" "tree" "curl" "wget" "zip" "tar" "zsh" "iotop" "bzip2"
 
 # mysql
 aptitude_install "mysql-server" "mysql-client" "libmysqlclient-dev"
